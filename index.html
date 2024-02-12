@@ -7,210 +7,427 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- CSS stylesheet -->
   <link rel="stylesheet" href="style.css">
-  <!-- website tab icon  -->
+  <!-- website tab icon -->
   <link rel="icon" type="image/png" href="img/dovefavicon-32x32.png" sizes="32x32"/>
-  <!-- font preload -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
   <!-- Font Awesome icons -->
   <script src="https://kit.fontawesome.com/8ed4f7edda.js" crossorigin="anonymous"></script>
-  <!-- title -->
+  <!-- Title -->
   <title>Cornerstone Inheritance House</title>
 </head>
-
-<body>
-  <!-- header/navbar -->
-  <div id="header">
-    <nav>
-      <ul id="navmenu">
-        <li><a href="#header">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#resources">Resources</a></li>
-        <a href="#header" class="logo"><img src="img/cs.logo2.png" alt="logo"></a>
-        <li><a href="#events">Events</a></li>
-        <li><a href="#locations">Locations</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-
-    <div>
-      <p>Stone by stone and prayer by prayer <br> we're building lives of inheritance. <br> <span>Psalm 118:22-23, “The stone which the builders rejected has become the cornerstone; the LORD had done this, and it is marvelous in our eyes.”</span> </p>
-    </div>
-  </div>
-
-  <div id="about">
-    <div class="container">
-      <div class="section-titles">
-        <p>About</p>
-      </div>
-      <div class="row">
-        <!-- about column with picture -->
-        <div class="about-col-1">
-          <img src="img/cswomen.jpg" alt="">
-        </div>
-        <!-- about column with description -->
-        <div class="about-col-2">
-          <h1>Who We Are</h1>
-          <p>Cornerstone Inheritance House is a community outreach hub supplying spiritual, economical and emotional support to our neighbors in Kosciusko county in Indiana. We believe that we are called to be the hands and feet of Jesus to our community. <br> <br> The Cornerstone Inheritance House is a place where worship, prayer and acts of service bring life & resources to hurting people by showing the love and character of Christ.</p>
+<!-- Navigation Bar -->
+<nav>
+  <a href="#header"><img src="img/cs.logo.png" class="logo"></a>
+    <ul id="navmenu">
+      <li><a href="#header">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#members">Members</a></li>
+      <li><a href="#ministry">Ministry</a></li>
+      <li><a href="#resources">Resources</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+    </ul>
+    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+</nav>
+  <body>
+    <!-- Header -->
+    <div id="header">
+      <div class="container">
+        <!-- navigation bar -->
+        
+        <!-- Landing page text  -->
+        <div class="header-text">
+          <p>Stone by stone and prayer by prayer</p>
+          <h2>Psalm 118:22-23, “The stone which the builders rejected has become the cornerstone; the LORD had done this, and it is marvelous in our eyes.”</h2>
         </div>
       </div>
     </div>
-  </div>
-
-  <!----------- Resources----------->
-  <div id="resources">
-    <div class="container">
-      <div class="section-titles">
-        <p>Resources</p>
-      </div>
-      <!-- Resources provided List -->
-      <div class="resource-list">
-
-        <!-- Resource Cards -->
-        <div class="wrapper">
-          <div class="image">
-           <img src="img/csresource.jpg" alt="">
-            <div class="content">
-              <p>Groceries<br>
-                Text
-              </p>
-            </div> 
+    <!-- ------------------ A B O U T ------------------ -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <!-- Who we are -->
+          <!-- Image -->
+          <div class="about-col-1">
+            <img src="img/cswomen.jpg" alt="">
           </div>
 
-          <div class="image">
-            <img src="img/cssupplies.jpg" alt="">
-             <div class="content">
-               <p>Supplies<br>
-                 Text
-               </p>
-             </div> 
-           </div>
+          <!-- Text/Description -->
+          <div class="about-col-2">
+            <h1 class="section-title">Who we are</h1>
+            <p>God has strategically placed Cornerstone Inheritance House in Winona Lake, Indiana. Why? You might ask. We believe that God is calling back the rich history of revival and of God's presence that had originally established this area. Cornerstone Inheritance House is a community outreach hub supplying spiritual, economical and emotional support to our neighbors in Winona Lake, Indiana and the Kosciusko county area. <br> <br>  We believe that we are called to be the hands and feet of Jesus in our community while remaining devoted to prayer, to praising Jesus and to christian fellowship. The Cornerstone Inheritance House is a place where worship, prayer, discipleship and acts of service bring life and resources to hurting people by showing the love and character of Christ.
+            </p>
+          </div>
 
-           <div class="image">
-            <img src="img/csclothing.jpg" alt="">
-             <div class="content">
-               <p>Clothing<br>
-                 Text
-               </p>
-             </div> 
-           </div>
+          <!-- Our Story -->
+          <!-- Text/Description -->
+          <div class="about-col-2">
+            <h1 class="section-title">Ministry Antecedents</h1>
+            <p>Winona Lake, known as a place of provision and a gathering place of God's 5-fold ministry, is a glacier lake community containing many natural artisan springs. These springs  have formed what we know  today to be Spring Fountain Park. We believe that these springs also contain the "wells of revival", God's living water, that birthed the great revival of baseball legend turned evangelist, Billy Sunday. <br> <br> From 1911-1935, he and his family lived, preached and built The Lord's Tabernacle on Winona Lake. Today, Billy Sunday's home has been preserved as a museum and sits just blocks away from our own Cornerstone Inheritance House. Billy Sunday's home has been lovingly preserved by our neighbors at Grace College & Christian Seminary.  In 1949, Billy Graham was also commissioned in prayer at Winona Lake as he began his crusade ministry. His crusades have impacted hundreds of thousands of people from then until his passing in 2018. <br> <br> Youth for Christ was started in Winona and boasted the largest Christian Conference Center of its time. And now,, we at Cornerstone, want to partner with God in prayer and acts of service to bring back and open up those deep "wells of revival" so that many will know  and encounter the Lord.  May the living water of the Holy Spirit flow in abundance in Winona Lake. May the "wells of revival" burst forth again for this is our city's inheritance! "Stone by stone and prayer by prayer, we're building lives of inheritance!"
+            </p>
+          </div>
 
-           <div class="image">
-            <img src="img/csprayer.jpg" alt="">
-             <div class="content">
-               <p>Prayer<br>
-                 Text
-               </p>
-             </div> 
-           </div>
+          <!-- Image -->
+          <div class="about-col-1">
+            <img src="img/winonalake.jpg" alt="">
+          </div>
 
-           <div class="image">
-            <img src="img/csdiscipleship.jpg" alt="">
-             <div class="content">
-               <p>Discipleship<br>
-                 Text
-               </p>
-             </div> 
-           </div>
-
-           <div class="image">
-            <img src="img/cswomenteaching.jpg" alt="">
-             <div class="content">
-               <p>Mentorship<br>
-                 Text
-               </p>
-             </div> 
-           </div>
         </div>
-      </div>
 
-    </div>
-  </div>
-
-  <!----------- Events----------->
-  <div id="events">
-    <div class="container">
-      <div class="section-titles">
-        <p>Events</p>
-      </div>
-      <div class="regular-section">
-        <h1>Regular Events</h1>
-      </div>
-
-      <div class="special-section">
-        <h1>Special Events</h1>
       </div>
     </div>
-  </div>
 
-  <!----------- Locations----------->
-  <div id="locations">
-    <div class="container">
-      <div class="section-titles">
-        <p>Locations</p>
-      </div>
-      <div class="row">
-        <!-- where column -->
-        <div class="locations-col-1">
-          <h1>Where to Find Us</h1>
-          <ul>
-            <li>Address: 4653 N 375 E, Warsaw, IN 46582</li>
-            <li>Email: Janetj9999@icloud.com</li>
-            <li>Phone: (574) 549-2471</li>
-          </ul>
+    <!-- ------------------ M I N I S T R Y - M E M B E R S ------------------ -->
+    
+    <div id="members">
+      <div class="container">
+        <div>
+          <h1 class="section-title">Ministry Members</h1>
         </div>
-        <!-- hours column -->
-        <div class="locations-col-2">
-          <h1>When to Visit</h1>
-          <ul>
-            <li>Monday | 7am - 5pm</li>
-            <li>Tuesday | 7am - 5pm</li>
-            <li>Wednesday | 7am - 5pm</li>
-            <li>Thursday | 7am - 5pm</li>
-            <li>Friday | 7am - 5pm</li>
-            <li>Saturday | 7am - 5pm</li>
-            <li>Sunday | 7am - 5pm</li>
-          </ul>
-        </div>
-      </div>
-  </div>
 
-  <!-- google map -->
-  <div class="google-map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2997.282008501852!2d-85.7736729!3d41.3027283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88169b49c643b963%3A0x5957fa1e75cc3e2c!2s4653%20N%20375%20E%2C%20Warsaw%2C%20IN%2046582!5e0!3m2!1sen!2sus!4v1705982031302!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-  </div>
+        <div class="profile">
 
-  <!----------- Contact----------->
-  <div class='contact-wrapper'>
-    <div class='row'>
-      <div class='column'>
-        <div class='contact-column'>
-        </div>
-      </div>
+          <div class="profile-card">
+            <div class="img-box">
+              <img src="img/JanetJones.jpeg" alt="">
+            </div>
+            <div class="info">
+              <h1>Janet Jones</h1>
+              <p>Director & Home Overseer</p>
+            </div>
+            <div class="buttons">
+              <div class="profile-card-btns"><a href="#">Follow</a></div>
+              <div class="profile-card-btns"><a href="mailto:">E-Mail</a></div>
+            </div>
+            <div class="members-bio"><p>Cornerstone Inheritance House Director, Ministry Home Overseer & Board Member. Janet has spent most of her adult life sharing the love of Christ with others and bringing them into the saving knowledge of Jesus through mentorship, friendship and prayer.  Her home has always been a hub for God's freedom and a safe place for the weary.  She has a fierce and loving mother's heart and an intercessory approach to leading and serving others into the things of God.</p></div>
+          </div>
 
-      <div class='column'>
-        <div class='message-column'>
-          <p><span>You're Not Alone!</span> <br> Reach out! We are always available and happy to help!</p>
-          <form>
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <input type="tel" name="number" placeholder="Your Number" required>
-            <textarea name="Message" rows="5" placeholder="Message"></textarea>
-            <div class="message-buttons"><button type="submit">Send Message</button></div>
-          </form>
+          <div class="profile-card">
+            <div class="img-box2">
+              <img class="img-box2" src="img/ConanAndAmyRomersberger.jpeg" alt="">
+            </div>
+            <div class="info">
+              <h1>Conan & Amy Romersberger</h1>
+              <p>Board of Directors Members</p>
+            </div>
+            <div class="buttons">
+              <div class="profile-card-btns"><a href="#">Follow</a></div>
+              <div class="profile-card-btns"><a href="mailto:">E-Mail</a></div>
+            </div>
+            <div class="members-bio"><p>Conan and Amy serve on the Board of Directors. Their hearts are for Kindgom investing, for the building up of God's people through transformative prayer and for teaching people how  to personally encounter the truth and love of Christ. Amy serves as the Director of Operations at Cornerstone Inheritance House and is the Prayer Room Overseer.</p></div>
+          </div>
+
+          <div class="profile-card">
+            <div class="img-box2">
+              <img class="img-box2" src="img/CharityRose.jpeg" alt="">
+            </div>
+            <div class="info">
+              <h1>Charity Rose</h1>
+              <p>Resource Director</p>
+            </div>
+            <div class="buttons">
+              <div class="profile-card-btns"><a href="#">Follow</a></div>
+              <div class="profile-card-btns"><a href="mailto:">E-Mail</a></div>
+            </div>
+            <div class="members-bio"><p>Her name says it all ~ Charity! Her heart is to give and see needs met through acts of service and love.  As the Resource Director, Charity will connect those in our community with the practical and spiritual help that they may need. Her and her team, "Vessels of Grace at Cornerstone" are ready and willing to be the living water of Christ to the dry and weary ones here in Kosciusko county.</p></div>
+          </div>
+          
         </div>
+
       </div>
     </div>
-  </div>
 
-  <div class="contact-footer">
-    <p>Copy Right @ 2024 Cornerstone - All Rights Reserved</p>
-  </div>
-
-
-
-  <!-- Javascript -->
+    <!-- ------------------ M I N I S T R Y / R E S O U R C E S ------------------ -->
+    
+    <div id="resources">
+      <div class="container">
+        <div>
+          <h1 class="section-title">Ministry</h1>
+        </div>
+        <!-- Resources provided List -->
+        <div class="resource-list">
   
-</body>
+          <!-- Resource Cards -->
+          <div class="wrapper">
+            <div class="image">
+             <img src="img/csprayer.jpg" alt="">
+              <div class="content">
+                <p>Prayer<br>
+                  <!-- Text -->
+                </p>
+              </div> 
+            </div>
+  
+            <div class="image">
+              <img src="img/csdiscipleship.jpg" alt="">
+               <div class="content">
+                 <p>Discipleship<br>
+                   <!-- Text -->
+                 </p>
+               </div> 
+             </div>
+  
+             <div class="image">
+              <img src="img/cswomenmentor.jpg" alt="">
+               <div class="content">
+                 <p>Mentorship<br>
+                   <!-- Text -->
+                 </p>
+               </div> 
+             </div>
+  
+             <div class="image">
+              <img src="img/cssafespace.jpg" alt="">
+               <div class="content">
+                 <p>Safe Space<br>
+                   <!-- Text -->
+                 </p>
+               </div> 
+             </div>
+  
+             <div class="image">
+              <img src="img/cssupplies.jpg" alt="">
+               <div class="content">
+                 <p>Basic Supplies<br>
+                   <!-- Text -->
+                 </p>
+               </div> 
+             </div>
+  
+             <div class="image">
+              <img src="img/csclothing.jpg" alt="">
+               <div class="content">
+                 <p>Clothes<br>
+                   <!-- Text -->
+                 </p>
+               </div> 
+             </div>
 
+             <div class="image">
+              <img src="img/csgroceries.jpg" alt="">
+               <div class="content">
+                 <p>Groceries<br>
+                   <!-- Text -->
+                 </p>
+               </div> 
+             </div>
+
+          </div>
+        </div>
+  
+      </div>
+    </div>
+
+    <!-- ------------------ R E S O U R C E S ------------------ -->
+
+    <div id="about">
+      <div class="container">
+        <h1 class="section-title">Resources</h1>
+        <div class="row">
+
+          <!-- Image Column -->
+          <div class="about-col-1">
+            <img src="img/csprayer.jpg" alt="">
+          </div>
+          <!-- Text Column  -->
+          <div class="about-col-2">
+            <h1 class="section-title">Prayer</h1>
+            <p>Cornerstone Inheritance House is a community outreach hub supplying spiritual, economical and emotional support to our neighbors in Kosciusko county in Indiana. We believe that we are called to be the hands and feet of Jesus to our community. <br> <br> The Cornerstone Inheritance House is a place where worship, prayer and acts of service bring life & resources to hurting people by showing the love and character of Christ.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('when1')">When</p>
+              <p class="tab-links" onclick="opentab('where1')">Where</p>
+              <!-- <p class="tab-links" onclick="opentab('education')">Education</p> -->
+            </div>
+            <div class="tab-contents active-tab" id="when1">
+              <p>Monday - Friday from 3pm to 6pm</p>
+            </div>
+            <div class="tab-contents" id="where1">
+              This even takes place at "address"
+            </div>
+          </div>
+
+          <!-- Image Column -->
+          <div class="about-col-1">
+            <img src="img/csdiscipleship.jpg" alt="">
+          </div>
+          <!-- Text Column  -->
+          <div class="about-col-2">
+            <h1 class="section-title">Discipleship</h1>
+            <p>Cornerstone Inheritance House is a community outreach hub supplying spiritual, economical and emotional support to our neighbors in Kosciusko county in Indiana. We believe that we are called to be the hands and feet of Jesus to our community. <br> <br> The Cornerstone Inheritance House is a place where worship, prayer and acts of service bring life & resources to hurting people by showing the love and character of Christ.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('when2')">When</p>
+              <p class="tab-links" onclick="opentab('where2')">Where</p>
+              <!-- <p class="tab-links" onclick="opentab('education')">Education</p> -->
+            </div>
+            <div class="tab-contents active-tab" id="when2">
+              <p>Monday - Friday from 3pm to 6pm</p>
+            </div>
+            <div class="tab-contents" id="where2">
+              This even takes place at "address"
+            </div>
+          </div>
+
+          <!-- Image Column -->
+          <div class="about-col-1">
+            <img src="img/cssafespace.jpg" alt="">
+          </div>
+          <!-- Text Column  -->
+          <div class="about-col-2">
+            <h1 class="section-title">Safe space</h1>
+            <p>Cornerstone Inheritance House is a community outreach hub supplying spiritual, economical and emotional support to our neighbors in Kosciusko county in Indiana. We believe that we are called to be the hands and feet of Jesus to our community. <br> <br> The Cornerstone Inheritance House is a place where worship, prayer and acts of service bring life & resources to hurting people by showing the love and character of Christ.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('when3')">When</p>
+              <p class="tab-links" onclick="opentab('where3')">Where</p>
+              <!-- <p class="tab-links" onclick="opentab('education')">Education</p> -->
+            </div>
+            <div class="tab-contents active-tab" id="when3">
+              <p>Monday - Friday from 3pm to 6pm</p>
+            </div>
+            <div class="tab-contents" id="where3">
+              This even takes place at "address"
+            </div>
+          </div>
+
+          <!-- Image Column -->
+          <div class="about-col-1">
+            <img src="img/cswomenteaching.jpg" alt="">
+          </div>
+          <!-- Text Column  -->
+          <div class="about-col-2">
+            <h1 class="section-title">Mentorship</h1>
+            <p>Cornerstone Inheritance House is a community outreach hub supplying spiritual, economical and emotional support to our neighbors in Kosciusko county in Indiana. We believe that we are called to be the hands and feet of Jesus to our community. <br> <br> The Cornerstone Inheritance House is a place where worship, prayer and acts of service bring life & resources to hurting people by showing the love and character of Christ.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('when4')">When</p>
+              <p class="tab-links" onclick="opentab('where4')">Where</p>
+              <!-- <p class="tab-links" onclick="opentab('education')">Education</p> -->
+            </div>
+            <div class="tab-contents active-tab" id="when4">
+              <p>Monday - Friday from 3pm to 6pm</p>
+            </div>
+            <div class="tab-contents" id="where4">
+              This even takes place at "address"
+            </div>
+          </div>
+
+          <!-- S P E C I A L - E V E N T S -->
+
+          <!-- Image Column -->
+          <div class="about-col-1">
+            <img src="img/csgroceries.jpg" alt="">
+          </div>
+          <!-- Text Column  -->
+          <div class="about-col-2">
+            <h1 class="section-title">Groceries</h1>
+            <p>Cornerstone Inheritance House is a community outreach hub supplying spiritual, economical and emotional support to our neighbors in Kosciusko county in Indiana. We believe that we are called to be the hands and feet of Jesus to our community. <br> <br> The Cornerstone Inheritance House is a place where worship, prayer and acts of service bring life & resources to hurting people by showing the love and character of Christ.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('when5')">When</p>
+              <p class="tab-links" onclick="opentab('where5')">Where</p>
+              <!-- <p class="tab-links" onclick="opentab('education')">Education</p> -->
+            </div>
+            <div class="tab-contents active-tab" id="when5">
+              <p>Monday - Friday from 3pm to 6pm</p>
+            </div>
+            <div class="tab-contents" id="where5">
+              This even takes place at "address"
+            </div>
+          </div>
+
+          <!-- Image Column -->
+          <div class="about-col-1">
+            <img src="img/csholidayhelp.jpg" alt="">
+          </div>
+          <!-- Text Column  -->
+          <div class="about-col-2">
+            <h1 class="section-title">Holiday Help</h1>
+            <p>Cornerstone Inheritance House is a community outreach hub supplying spiritual, economical and emotional support to our neighbors in Kosciusko county in Indiana. We believe that we are called to be the hands and feet of Jesus to our community. <br> <br> The Cornerstone Inheritance House is a place where worship, prayer and acts of service bring life & resources to hurting people by showing the love and character of Christ.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('when6')">When</p>
+              <p class="tab-links" onclick="opentab('where6')">Where</p>
+              <!-- <p class="tab-links" onclick="opentab('education')">Education</p> -->
+            </div>
+            <div class="tab-contents active-tab" id="when6">
+              <p>Monday - Friday from 3pm to 6pm</p>
+            </div>
+            <div class="tab-contents" id="where6">
+              This even takes place at "address"
+            </div>
+          </div>
+
+        </div class="row">
+        
+      </div>
+    </div>
+    <!-- ------------------ C O N T A C T ------------------ -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="section-title">You're Not Alone!</h1> <br>
+            <h2>Reach out! We are always available and happy to help!</h2>
+            <h2>Email:</h2>
+            <p><i class="fa-solid fa-envelope"></i> <span>cornerstoneinheritancehouse@gmail.org</span></p> <br> <br>
+            <h2>Address:</h2>
+            <p><i class="fa-solid fa-location-dot"></i> <span>200 13th St  Winona Lake, IN 46590</span></p> <br>
+            <div class="social-icons">
+            <h2>Follow us on FaceBook for news & updates on upcoming events!</h2> <br>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook"></i> Facebook</a>
+            </div>
+          </div>
+
+          <div class="contact-right">
+            <img src="img/csunity.jpg" alt="">
+          </div>
+        </div>
+      </div>
+
+      <!-- google map -->
+      <div class="google-map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3000.919661205518!2d-85.81810399999999!3d41.2235212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88169d9789026b49%3A0x28ca5706f961e5b9!2s200%2013th%20St%2C%20Winona%20Lake%2C%20IN%2046590!5e0!3m2!1sen!2sus!4v1707686890544!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+    </div>
+      <div class="page-footer"><p>Copy Right @ 2024 Cornerstone - All Rights Reserved</p></div>
+    </div>
+
+<!-- Info Tabs Functionality -->
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for(tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+<!-- Side Menu Functionality -->
+    <script>
+      var navmenu = document.getElementById("navmenu");
+
+      function openmenu() {
+        navmenu.style.right = "0";
+      }
+
+      function closemenu() {
+        navmenu.style.right = "-200px";
+      }
+    </script>
+
+  </body>
 </html>
