@@ -5,7 +5,7 @@
   --secondary-color: #6d7265;
   --accent: #e07f0b;
   --background: #D9D9D9;
-  --text: #ababab;
+  --text: #8c8c8c;
 }
 
 * {
@@ -17,6 +17,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 60px;
 }
 
 body {
@@ -44,8 +45,7 @@ body {
   background-position: center;
 }
 
-.header-text
-{
+.header-text {
   margin-top: 20%;
   font-size: 30px;
 }
@@ -120,7 +120,7 @@ nav .fa-solid {
 
 #about {
   padding: 80px 0;
-  color: #ababab
+  color: var(--text)
 }
 
 #about img {
@@ -153,7 +153,7 @@ nav .fa-solid {
 /* ---------------- M I N I S T R Y - M E M B E R S ---------------- */
 .profile {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(304px, 1fr));
   grid-gap: 20px;
 }
 
@@ -214,12 +214,12 @@ nav .fa-solid {
   background: var(--secondary-color);
   border: 2px solid var(--secondary-color);
   border-radius: 5px;
-  padding: 5px 30px;
+  padding: 5px 80px;
   margin-bottom: 15px;
 }
 
 .profile-card-btns:hover {
-  background: var(--primary-color);
+  background: #898f7f;
 }
 
 .profile-card-btns a {
@@ -362,7 +362,7 @@ nav .fa-solid {
 }
 
 .contact-left {
-  flex-basis: 45%;
+  flex-basis: 50%;
   color: var(--text);
 }
 
@@ -371,22 +371,30 @@ nav .fa-solid {
   font-size: 25px;
 }
 
-.contact-left p {
-  margin-top: 30px;
-}
-
-.contact-left p i {
+.contact-left h2 i {
   color: var(--primary-color);
   margin-right: 15px;
   font-size: 25px;
 }
 
-.contact-left span {
+.contact-left p {
+  margin-top: 30px;
+  color: var(--primary-color);
+  font-weight: bold;
   font-size: 25px;
 }
 
+.contact-left span {
+  font-size: 25px;
+  color: var(--text);
+}
+
 .contact-right {
-  flex-basis: 40%;
+  flex-basis: 35%;
+}
+
+.contact-right p {
+  color: var(--primary-color);
 }
 
 .social-icons {
@@ -397,7 +405,7 @@ nav .fa-solid {
   text-decoration: none;
   font-size: 30px;
   margin-right: 15px;
-  color: #ababab;
+  color: var(--text);
   display: inline-block;
   transition: transform 0.5s;
 }
@@ -436,21 +444,28 @@ nav .fa-solid {
   }
 
   .header-text {
-    margin-top: 50%;
-    font-size: 16px;
+    text-align: center;
+    padding-top: 35%;
+    padding-bottom: 40%;
+    font-size: 15px;
   }
 
   .header-text h1 {
     font-size: 30px;
   }
 
+  .header-text h2 {
+    font-size: 15px;
+  }
+
+  /* navigation bar */
   nav .fa-solid {
     display: block;
     font-size: 25px;
   }
 
   nav ul {
-    background: #ff004f;
+    background: var(--secondary-color);
     position: fixed;
     top: 0;
     right: -200px;
@@ -473,13 +488,18 @@ nav .fa-solid {
     cursor: pointer;
   }
 
-  .sub-title {
-    font-size: 40px;
+  .section-title {
+    font-size: 35px;
   }
 
+  /* A B O U T */
   #about img {
     width: 100%;
     height: 350px;
+  }
+
+  #about p {
+    font-size: 15px;
   }
 
   .about-col-1, .about-col-2 {
@@ -499,7 +519,28 @@ nav .fa-solid {
     margin-right: 20px;
   }
 
+  /* M E M B E R S */
+  .profile-card {
+    place-self: start;
+  }
+
+  /* C O N T A C T */
   .contact-left, .contact-right {
     flex-basis: 100%;
   }
+
+  .contact-left span {
+    font-size: 15px;
+  }
+
+  #contact img {
+    margin-top: 20px;
+    width: 90%;
+    height: 450px;
+  }
+
+  .page-footer {
+    font-size: 12px;
+  }
+
 }
