@@ -48,6 +48,11 @@ body {
 .header-text {
   margin-top: 20%;
   font-size: 30px;
+  border-left: solid 5px #fff;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .header-text h1 {
@@ -445,10 +450,14 @@ nav .fa-solid {
   }
 
   .header-text {
-    text-align: center;
-    padding-top: 35%;
-    padding-bottom: 40%;
+    text-align: start;
+    margin-top: 50%;
     font-size: 15px;
+    border-left: solid 5px #fff;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 
   .header-text h1 {
